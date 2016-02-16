@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en" ng-app>
+  <head>
+    <title>Chat Example</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      
+    </style>
+    
+  </head>
+  <body>
+ 
+  <h3>Websocket Demo!</h3>
+  
+  <div id="main_content">
+  
+  <form>
+    <input type="text" id="input1" /><input id="chat" type="submit" value="chat" />
+  </form>
+  <input id="connect" type="submit" value="connect" />
+  
+  <!-- v.2 -->
+  <input id="init" type="button" value="init (v.2)" />
+
+  <input id="remove_socket" type="button" value="remove socket" />
+
+  <div id="chat_window" class="none">
+    <p>Messages: </p>
+    <div id="messages"></div>
+    <ul></ul>
+  </div>
+
+  </div>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <!--<script src="js/socket.io.js"></script>-->
+  <script src="js/script_copy1.js"></script>
+  
+  </body>
+</html>
